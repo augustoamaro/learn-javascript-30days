@@ -2,6 +2,16 @@
 let firstName = 'Augusto';
 let lastName = 'Amaro';
 
+
+// Operadores aritméticos são operadores matemáticos
+
+// Adição (+): a + b
+//Subtração (-): a - b
+// Multiplicação (*): a * b
+// Divisão (/): a / b
+// Módulo (%): a % b
+// Exponencial (**): a ** b
+
 let numOne = 4;
 let numTwo = 3;
 let sum = numOne + numTwo;
