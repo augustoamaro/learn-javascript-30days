@@ -10,4 +10,4 @@ let count2 = 0;
 console.log(cout2--);
 console.log(count2);
 
-// Usar o pós-decremento  por boas práticas
+// Usar o pós-decremento por boas práticas

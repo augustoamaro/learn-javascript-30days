@@ -41,9 +41,9 @@ let circunferencia = alert(2 * Math.PI * raio);
 // Insira as horas: 40
 // Insira a taxa por hora: 28
 // Seu ganho semanal é 1120
-// let hours = Number(prompt('Insira as horas'));
-// let taxByHour = Number(prompt('Insira a taxa por hora'));
-// let salary = alert(hours * taxByHour);
+let hours = Number(prompt('Insira as horas'));
+let taxByHour = Number(prompt('Insira a taxa por hora'));
+let salary = alert(hours * taxByHour);
 
 // 10. Se o comprimento do seu nome for maior que 7, diga, seu nome é longo, ou diga que seu nome é curto.
 let firstName = 'Augusto';
@@ -65,19 +65,26 @@ primeiroNome.length > sobreNome.length
 // let  minhaIdade  =  250 
 // deixe suaIdade  =  25
 // Eu sou 225 anos mais velho que você.
-// Usando o prompt, obtenha o ano em que o usuário nasceu e, se o usuário tiver 18 anos ou mais, permita que ele dirija, se não diga ao usuário para esperar alguns anos.
+let myage = 250;
+let yourAge = 25;
+console.log(`Eu sou ${myage - yourAge} mais velho que você`)
 
+// 13. Usando o prompt, obtenha o ano em que o usuário nasceu e, se o usuário tiver 18 anos ou mais, permita que ele dirija, se não diga ao usuário para esperar alguns anos.
 // Digite o ano de nascimento: 1995
 // Você tem 25 anos. Você tem idade suficiente para dirigir
-
 // Digite o ano de nascimento: 2005
 // Você tem 15 anos. Você poderá dirigir após 3 anos.
-// Escreva um script que solicite que o usuário insira o número de anos. Calcule o número de segundos que uma pessoa pode viver. Suponha que alguém viva apenas cem anos
+let birthday = Number(prompt('Digite o ano de nascimento'));
+    birthday < 2003
+        ? alert(`Você tem ${2021 - birthday} anos. Você tem idade suficiente para dirigir`)
+        : alert('Não pode dirigir')
 
-// Digite o número de sua residência: 100
+// 14. Escreva um script que solicite que o usuário insira o número de anos. Calcule o número de segundos que uma pessoa pode viver. Suponha que alguém viva apenas cem anos
+// Digite a sua idade: 29
 // Você viveu 3153600000 segundos.
-// Crie um formato de hora legível usando o objeto Date time
 
+
+// 15. Crie um formato de hora legível usando o objeto Date time
 // AAAA-MM-DD HH: mm
 // DD-MM-AAAA HH: mm
 // DD / MM / AAAA HH: mm
