@@ -3,21 +3,6 @@
 // A instrução break é para encerrar a execução do código não seja interrompida depois que a condição for satisfeita.
 // O blco padrão é executado se todos os casos não satisfazerem a condição.
 
-// sintaxe
-// switch (caseValue) {
-//     case 1:
-//         code
-//         break
-//     case 2:
-//         code
-//         break
-//     case 3:
-//         code
-//     default:
-//         code
-// }
-
-
 let tempo = 'nublado';
 switch (tempo) {
     case 'chuvoso':
@@ -33,6 +18,6 @@ switch (tempo) {
         break;
     
     default:
-        console.log('Não precisa de capa de chuva nem jaqueta')
+        console.log('Não precisa de capa de chuva nem jaqueta');
     
 }

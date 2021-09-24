@@ -1,5 +1,5 @@
 // Usamos else if quando temos várias condições
-// Por boas práticas não usar else if, usar clean code.
+// Por boas práticas não usar else if, tentar diminuir a quantidade de ifs.
 
 
 let a = 0

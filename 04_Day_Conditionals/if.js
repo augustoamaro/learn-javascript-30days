@@ -1,8 +1,3 @@
-// sintaxe 
-// if (condition) {
-//     esta parte do código é executada para condição verdadeira
-// }
-
 let num = 3;
 
 if (num > 0) {

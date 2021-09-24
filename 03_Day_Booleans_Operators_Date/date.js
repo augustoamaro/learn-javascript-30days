@@ -3,21 +3,20 @@
 
 // Criando um objeto Date()
 const now = new Date();
-console.log(now)
+console.log(now);
 
 // Criando um objeto de tempo podemos acessar qualquer informação de data e hora do objeto usando os métodos get.
-
 // Extrair ou obter o ano inteiro de Date()
 const year = new Date();
 console.log(year.getFullYear()); // 2021
 
 // Obtendo o mês
 const month = new Date();
-console.log(month.getMonth()) // Setembro - 08 porque Janeiro é 0
+console.log(month.getMonth()); // Setembro - 08 porque Janeiro é 0
 
 // Obtendo o dia
 const day = new Date();
-console.log(day.getDate()) // 21
+console.log(day.getDate()); // 21
 
 // Obtendo horas
 const hour = new Date();

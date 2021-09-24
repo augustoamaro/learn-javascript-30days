@@ -43,4 +43,3 @@ if (season === 'Setember' | season === 'October' || season === 'November') {
 //     Sexta-feira é dia de trabalho.
 //     Que dia é hoje? Sexta-feira
 //     Sexta-feira é dia de trabalho.
-

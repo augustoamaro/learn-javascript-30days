@@ -6,12 +6,13 @@
     o primeiro elemento do array é 0, o segundo 1, etc...
 */
 
+// array contendo números
 let nums = [1, 2, 3, 4, 5]
 nums[0] = 10
 
 console.log(nums) // [10, 2, 3, 4, 5]
 
-
+// objeto 1
 let personOne = {
     firstName: 'Curtis',
     lastName: 'Jackson',
@@ -19,6 +20,7 @@ let personOne = {
     age: 42
 }
 
+// objeto 2
 let personTwo = {
     firstName: 'Lebron',
     lastName: 'James',

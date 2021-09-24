@@ -7,13 +7,11 @@ isRaining
     : console.log('Não há necessidade de capa de chuva.')
 // O operador ternário permite escrever uma condição. 
 
-    isRaining = false;
-
+isRaining = false;
 
 isRaining
     ? console.log('Você precisa de uma capa de chuva.')
     : console.log('Não há necessidade de capa de chuva.')
-
 
     let number = 5
         number > 0

@@ -2,11 +2,10 @@
 let firstName = 'Augusto';
 let lastName = 'Amaro';
 
-
 // Operadores aritméticos são operadores matemáticos
 
 // Adição (+): a + b
-//Subtração (-): a - b
+// Subtração (-): a - b
 // Multiplicação (*): a * b
 // Divisão (/): a / b
 // Módulo (%): a % b
@@ -19,26 +18,26 @@ let diff = numOne - numTwo;
 let mult = numOne * numTwo;
 let div = numOne / numTwo;
 let remainder = numOne % numTwo;
-let powerOf = numOne ** numTwo
+let powerOf = numOne ** numTwo;
 console.log(sum, diff, mult, div, remainder, powerOf);
 
 
 const PI = 3.14;
-let radius = 100 // comprimento em metros;
+let radius = 100 // Comprimento em metros;
 
 //Calcular a área de um círculo
 const areaOfCircle = PI * radius * radius
 console.log(areaOfCircle); // 314m
 
-const gravidade = 9.81; // em m/s2
-let massa = 72; // quilograma
+const gravidade = 9.81; // Em m/s2
+let massa = 72; // Quilograma
 
 //Calcular o peso de um objeto
 const peso = massa * gravidade
 console.log(peso) // 706.32 Newton
 
 const boilingPoint = 100 // Temperatura em oC, ponto de ebuilição da água
-const bodyTemp = 37 // temperatura corporal em oC
+const bodyTemp = 37 // Temperatura corporal em oC
 
 // Concatenando string com número usando interpolação de string (template string).
 // O ponto de ebulição da água é 100 oC. A temperatura do corpo humano é de 37 oC. A gravidade da terra é 9.81/s2.

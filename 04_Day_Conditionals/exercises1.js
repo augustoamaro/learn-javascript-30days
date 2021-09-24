@@ -5,11 +5,9 @@
 // Digite sua idade: 15
 // Você fica com 3 anos para dirigir.
 let age = Number(prompt('Digite sua idade'))
-if (age >= 18) {
-    alert('Você tem idade suficiente para dirigir');
-} else {
-    alert(`Faltam ${18 - age} anos para dirigir`);
-}
+age >= 18 
+    ? alert('Você tem idade suficiente para dirigir')
+    : alert(`Faltam ${18 - age} anos para dirigir`)
 
 
 
@@ -30,11 +28,9 @@ alert(`Você é ${age - yourAge} mais velho que eu`)
 let a = 4;
 let b = 3;
 
-if (a > b) {
-    console.log('a é maior que b');
-} else {
-    console.log('a é menor que b');
-}
+a > b
+    ? console.log('a é maior que b')
+    : console.log('a é menor que b')
 
 // 4. Os números pares são divisíveis por 2 e o resto é zero. Como você verifica se um número está par ou não usando JavaScript?
 // Digite um número: 2
