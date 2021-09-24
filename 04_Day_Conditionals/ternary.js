@@ -8,6 +8,8 @@ isRaining
     
 let firstName = 'Leonidas';
 
-firstName === 'Lucas' ? console.log('Lucas') 
-    : firstName === 'Leonidas' ? console.log('Leonidas') 
-    : console.log('Nome não escontrado')
+firstName === 'Lucas' 
+    ? console.log('Lucas') 
+    : firstName === 'Leonidas' 
+        ? console.log('Leonidas') 
+        : console.log('Nome não escontrado')
