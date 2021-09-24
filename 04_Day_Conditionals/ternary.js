@@ -1,4 +1,5 @@
 // Uma alternativa de escrever condicionais é usando operadores ternários.
+// Usar por boas práticas
 
 let isRaining = true;
 isRaining

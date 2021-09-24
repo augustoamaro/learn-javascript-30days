@@ -18,11 +18,11 @@ if (grade >= 80 && grade <= 100) {
     console.log('F');
 }
 
-// 2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
-// September, October or November, the season is Autumn.
-// December, January or February, the season is Winter.
-// March, April or May, the season is Spring
-// June, July or August, the season is Summer
+// 2. Verifique se a estação é outono, inverno, primavera ou verão. Se a entrada do usuário for:
+// Setembro, outubro ou novembro, a temporada é outono.
+// Dezembro, janeiro ou fevereiro, a temporada é inverno.
+// Março, abril ou maio, a temporada é primavera
+// Junho, julho ou agosto, a temporada é verão
 let season = prompt('Digite o mês')
 if (season === 'Setember' | season === 'October' || season === 'November') {
     alert('Autumn')
@@ -34,15 +34,13 @@ if (season === 'Setember' | season === 'October' || season === 'November') {
     alert('Summer')
 }
 
-// 3. Check if a day is weekend day or a working day. Your script will take day as an input.
-//     What is the day  today? Saturday
-//     Saturday is a weekend.
+// 3. Verifique se um dia é dia de fim de semana ou dia útil. Seu script terá um dia como entrada.
+//     Que dia é hoje? sábado
+//     Sábado é fim de semana.
+//     Que dia é hoje? sábado
+//     Sábado é fim de semana.
+//     Que dia é hoje? sexta-feira
+//     Sexta-feira é dia de trabalho.
+//     Que dia é hoje? Sexta-feira
+//     Sexta-feira é dia de trabalho.
 
-//     What is the day today? saturDaY
-//     Saturday is a weekend.
-
-//     What is the day today? Friday
-//     Friday is a working day.
-
-//     What is the day today? FrIDAy
-//     Friday is a working day.

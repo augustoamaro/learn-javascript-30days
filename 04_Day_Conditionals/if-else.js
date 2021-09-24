@@ -1,17 +1,13 @@
 // Se a condição for verdadeira, o primeiro bloco será executado, caso contrário, a condição else será executada.
 
-// if (condition) {
-//     será executada se essa condição for verdadeira
-// } else {
-//     será executada se essa condição for falso
-// }
+
 
 let num = -4;
 
 if (num > 0) {
-    console.log(`${num} é um número positivo`)
+    console.log(`${num} é um número positivo`); // condição verdadeira
 } else {
-    console.log(`${num} é um número negativo`);
+    console.log(`${num} é um número negativo`); // condição falsa
 }
 
 let isRaining = true

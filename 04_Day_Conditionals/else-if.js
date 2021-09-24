@@ -1,15 +1,6 @@
 // Usamos else if quando temos várias condições
+// Por boas práticas não usar else if, usar clean code.
 
-// sintaxe 
-/*
-if  ( condição )  { 
-     código 
-}  else  if  ( condição )  { 
-   código 
-}  else  { 
-    código
-}
-*/
 
 let a = 0
 
