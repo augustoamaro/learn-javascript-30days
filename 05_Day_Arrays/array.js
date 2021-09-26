@@ -10,8 +10,8 @@ console.log(array);
 
 // Arrays com valores iniciais, usamos a propriedade length para encontrar o comprimento de um array.
 
-const numbers = [0, 3, 14, 9, 81, 37, 98, 6, 100];                               // array de números 
-const fruits = ['banana',  'laranja',  'manga',  'limão'];                   // array de strings (frutas) 
+const numbers = [0, 3, 14, 9, 81, 37, 98, 6, 100];             // array de números 
+const fruits = ['banana',  'laranja',  'manga',  'limão'];     // array de strings (frutas) 
 
 console.log('Numbers:', numbers);
 console.log('Numbers of numbers:', numbers.length);
@@ -23,7 +23,7 @@ console.log('Number of fruits:', fruits.length);
 let firstFruit = fruits[0]
 console.log(firstFruit);
 
-// O último índice pode ser acessado da seguinte maneira.
+// O último índice pode ser acessado da seguinte manfd  eira.
 let lastIndex = fruits.length -1
 console.log(lastIndex);
 
