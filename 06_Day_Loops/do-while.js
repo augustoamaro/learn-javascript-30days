@@ -1,3 +1,5 @@
+// Cria um laço que executa uma declaração até que o teste da condição for falsa. A condição avalida depois que o bloco de código é executado, resultado que uma declaração seja executada pelo menos uma vez.
+
 let i = 0;
 
 do {
