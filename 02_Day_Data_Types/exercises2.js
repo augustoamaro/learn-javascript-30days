@@ -12,7 +12,7 @@ console.log('10' == 10)
 
 // 5. Verifique se 'on' é encontrado tanto em python quanto em 'jargon'.
 
-// 6. Espero que este curso não esteja cheio de jargões . Verifique se há jargão na frase.
+// 6. Espero que este curso não esteja cheio de jargões. Verifique se há jargão na frase.
 
 // 7. Gere um número aleatório entre 0 e 100 inclusive.
 console.log('7) ', Math.random() * (0 - 100 + 1) + 100);

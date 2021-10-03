@@ -75,14 +75,14 @@ function peso(massa, gravidade) {
 
 console.log(peso(5, 5))
 
-// A temperatura em oC pode ser convertida em oF usando esta fórmula: oF = (oC x 9/5) + 32 . Escreva uma função que converte oC em oF convertCelciusToFahrenheit.
+// 12. A temperatura em oC pode ser convertida em oF usando esta fórmula: oF = (oC x 9/5) + 32 . Escreva uma função que converte oC em oF convertCelciusToFahrenheit.
 function convertCelciusToFahrenheit(oC) {
     return of = (oC * 9 / 6) + 32
 }
 
 console.log(convertCelciusToFahrenheit(20))
 
-// O índice de massa corporal (IMC) é calculado da seguinte forma: bmi = peso em Kg / (altura x altura) em m2 . 
+// 13. O índice de massa corporal (IMC) é calculado da seguinte forma: bmi = peso em Kg / (altura x altura) em m2 . 
 //Escreva uma função que calcule bmi . O IMC é usado para definir amplamente diferentes grupos de peso em adultos de 20 anos ou mais. 
 //Verifique se uma pessoa está abaixo do peso, normal, com sobrepeso ou obeso com base nas informações fornecidas abaixo.
 function imc(peso, altura) {
@@ -99,11 +99,39 @@ console.log(imc(175, 78))
 // Obeso : o IMC é 30 ou mais
 
 
-// Escreva uma função chamada checkSeason , ela pega um parâmetro de mês e retorna a estação: outono, inverno, primavera ou verão.
+// 14. Escreva uma função chamada checkSeason , ela pega um parâmetro de mês e retorna a estação: outono, inverno, primavera ou verão.
+function checkSeason(mes) {
+    if (mes === 'Janeiro' || mes === 'Fevereiro' || mes === 'Março') {
+        return console.log('Verão')
+    }
 
-// Math.max retorna seu maior argumento. Escreva uma função findMax que receba três argumentos e retorne seu máximo sem usar o método Math.max.
+    if (mes === 'Abril' || mes === 'Maio' || mes === 'Junho') {
+        return console.log('Outono')
+    }
+
+    if (mes === 'Julho' || mes === 'Agosto' || mes === 'Setembro') {
+        return console.log('Inverno')
+    }
+
+    if (mes === 'Outubro' || mes === 'Novembro' || mes === 'Dezembro') {
+        return console.log('Primavera')
+    }
+
+}
+
+checkSeason('Fevereiro')
+
+// 15. Math.max retorna seu maior argumento. Escreva uma função findMax que receba três argumentos e retorne seu máximo sem usar o método Math.max.
 
 // console . log ( findMax ( 0 ,  10 ,  5 ) ) 
 // 10 
 // console . log ( findMax ( 0 ,  - 10 ,  - 2 ) ) 
 // 0
+
+function findMax(num1, num2, num3){
+    
+    let maxNumber = Math.max(num1, num2, num3);
+    console.log(maxNumber)
+}
+
+findMax(546, 334, 58)
