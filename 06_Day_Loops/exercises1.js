@@ -45,6 +45,4 @@ const  countries  =  [
   
 //   Desenvolva um pequeno script que gere uma matriz de 5 números aleatórios e os números devem ser únicos
   
-//   Desenvolva um pequeno script que gere uma identificação aleatória de seis caracteres:
-  
-//   5j2khz
+//   Desenvolva um pequeno script que gere uma identificação aleatória de seis caracteres: //   5j2khz
