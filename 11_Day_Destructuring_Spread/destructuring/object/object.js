@@ -10,10 +10,6 @@ let {width, height, area, perimeter } = rectangle
 
 console.log(width, height, area, perimeter); // 20 10 200 undefined
 
-// Renomeando durante destructuring
 
-let { width: w, heigh: h, area: a, perimeter: p } = rectangle
 
-console.log(w, h, a, p); // 20 10 200 undefined
 
-// Se a chave não for encontrada no objeto, a variável será atribuída a indefinida. No caso, a chave não está no objeto, podemos dar um valor padrão durante a declaração.
