@@ -1,0 +1,1 @@
+// Limpa o console do navegador
