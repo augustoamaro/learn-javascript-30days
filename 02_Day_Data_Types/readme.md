@@ -8,7 +8,7 @@ Os tipos de dados podesem ser divididos em dois:
 Os tipos de dados primitivos em JavaScript incluem:
 
 1. Número - inteiro, flutuantes.
-2. Strings - Quaiquer dados entre aspas simples, aspas duplas ou crônicas.
+2. Strings - Quaisquer dados entre aspas simples, aspas duplas ou crônicas.
 3. Booleanos - Valor verdadeiro ou falso.
 4. Null - Valor vazio ou nenhum valor.
 5. Undefined - Uma variável declarada sem um valor.

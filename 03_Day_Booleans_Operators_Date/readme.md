@@ -4,7 +4,7 @@ Um tipo de dado booleano representa um dos dois valores: verdadeiro ou Todas as 
 
 Valores verdadeiros
 
-- Todos os números (positivos ou negativos) s"ao verdadeiros, exceto zero.
+- Todos os números (positivos ou negativos) são verdadeiros, exceto zero.
 - Todas as strings são verdadeiras.
 
 Valores falsos

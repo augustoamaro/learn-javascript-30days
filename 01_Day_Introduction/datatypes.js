@@ -1,8 +1,8 @@
 let firstName = 'Goku';
-console.log(typeof firstName);
+console.log(typeof firstName); // string
 
 let age = 30;
-console.log(typeof age);
+console.log(typeof age); // number
 
 let isSaiyan = true;
-console.log(typeof isSaiyan)
+console.log(typeof isSaiyan) // booelan

@@ -43,3 +43,10 @@ if (season === 'Setember' | season === 'October' || season === 'November') {
 //     Sexta-feira é dia de trabalho.
 //     Que dia é hoje? Sexta-feira
 //     Sexta-feira é dia de trabalho.
+
+let day = prompt('Que dia é hoje?');
+if (day === 'Sábado' || day === 'Domingo') {
+    alert(`${day} é fim de semana`)
+} else {
+    alert (`${day} é dia de semana`)
+}
