@@ -1,5 +1,5 @@
-// Quando criamos uma classe para algunms propriedades, podemos ter um valor inicial. Por exemplo, se você estiver jogando um jogo, sua pontuação inicial será zero.
-// Portanto, podemos ter uma pontuação inicial ou pontuação zero. Podemos ter uma habilidade inicial e iremos adquirir alguma habilidade depois de algum tempo
+// O método get nos permite acessar o valor do objeto. Escrevemos um método get usando a palavra-chave get seguida por uma função.
+// Em vez de acessar propriedades diretamente do objeto, usamos getter para obter o valor
 
 class Person {
     constructor(firstName, lastName, age, country, city) {
@@ -15,15 +15,19 @@ class Person {
         const fullName = this.firstName + ' ' + this.lastName
         return fullName
     }
+    get getScore() {
+        return this.score
+    }
+    get getSkills() {
+        return this.skills
+    }
 }
 
 const person1 = new Person('Augusto', 'Amaro', 29, 'Brasil', 'Penha')
 const person2 = new Person('LeBron', 'James', 36, 'USA', 'Akron')
 
-console.log(person1.score);
-console.log(person2.score)
+console.log(person1.getScore);
+console.log(person2.getScore)
 
-console.log(person1.skills);
-console.log(person2.skills)
-
-// Um método pode ser um método regular, um getter ou um seller. 
+console.log(person1.getSkills);
+console.log(person2.getSkills)
