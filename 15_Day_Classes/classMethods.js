@@ -1,4 +1,4 @@
-// O construtor dentro de uma classe é uma função embutidade que nos ppermite criar um blueprint para o objeto. Em uma classe, podemos criar métodos de classe.
+// O construtor dentro de uma classe é uma função embutidade que nos permite criar um blueprint para o objeto. Em uma classe, podemos criar métodos de classe.
 // Métodos são função JavaScript dentro da classe. Vamos criar algun métodos de classe.
 
 class Person {
