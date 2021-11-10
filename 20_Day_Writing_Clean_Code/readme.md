@@ -65,7 +65,7 @@ Neste desafio, seguimos a convenção regular de JavaScript, mas também adicion
 - Preferimos +=, -=, *=, /=, **= em vez da versão mais longa.
 - Quando usamos console.log() é bom imprimir com uma string de tag para identificar de onde o console está vindo.
 
-´´´js
+```js
 
 let firstName = 'Augusto'
 let lastName = 'Amaro'
@@ -73,6 +73,72 @@ let country = 'Brazil'
 
 const PI = Math.PI
 
-´´´
+```
 
 Arrays
+
+Optamos por fazer nomes de array plurais
+
+- nomes
+- números
+- países
+- línguas
+- habilidades
+- frutas
+- legumes
+
+```js
+
+const names = ['Augusto', 'Fulano', 'Ciclano'];
+const numbers = [0, 3.14, 9.81, 37, 100];
+const countries = ['Brasil', 'Iceland', 'USA'];
+const skills = ['HTML', 'CSS', 'JS', 'React'];
+
+```
+
+Agora você está familiazirado com a declaração de função, função de expressão, função de seta e função anônima. Neste desafio, tendemos a usar a função de seta em vez de outras funções. A função de seta não substitui outras funções. Além disso, as função de seta e declarações de função são exatamente as mesmas. Portanto, você deve saber quando usar e quando não usar. Usaremos o retorno explícito em vez do retorno implícito se a função for de uma linha.
+
+```js
+
+// função que imprime o nome completo de uma pessoa
+const printFullName = (firstName, lastName) => firstName + ' ' + lastName
+
+// função que calcula o quadrado de um número
+const square = (n) => n * n
+
+// uma função que gera cores hexa aleatórias
+const hexaColor = () => {
+    const str = '0123456789abcdef'
+    let hexa = '#'
+    let index
+    for (let i = 0; i < 6; i++) {
+        index = Math.floor(Math.random() * str.length)
+        hexa += str[index]
+    }
+    return hexa
+}
+
+// uma função que mostra a data e a hora
+const showDateTime = () => {
+   const now = new Date()
+   const year = now.getFullYear()
+   const month = now.getMonth() + 1
+   const date = now.getDate()
+   let hours = now.getHours()
+   let minutes = now.getMinutes()
+   if (hours < 10) {
+       hours = '0' + hours
+   }
+   if (minutes < 10) {
+       minutes = '0' + minutes
+   }
+
+   const dateMonthYear = date + '.' + month + '.' + year
+   const time = hours + ':' + minutes
+   const fullTime = dateMonthYear + ' ' + time
+   return fullTime
+}
+
+```
+
+
