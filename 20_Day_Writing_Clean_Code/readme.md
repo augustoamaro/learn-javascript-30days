@@ -44,3 +44,35 @@ As convenções de codificação ajudam:
 - escrever código limpo
 - para melhorar a legibilidade do código
 - para melhorar a reutilização e manutenção do código
+
+As convenções de codificação incluem
+
+- Regras de nomenclatura e declaração para variáveis
+- Regras de nomenclatura e declaração para funções
+- Regras para o uso de espaço em branco, recuo e comentários
+
+
+Neste desafio, seguimos a convenção regular de JavaScript, mas também adicionei minha preferência de escrita
+
+- Usamos camelCase para variáveis e funções.
+- Todos os nomes de variáveis começam com uma letra.
+- Optamos por usar constantes para constantes, matrizes, objetos e funções. Em vez de aspas duplas, optamos por usar aspas simples ou crase. Aspas simples estão se tornando moda.
+- Também removemos o ponto-e-vírgula do nosso código, mas é uma questão de preferência pessoal.
+- Espaço em torno de operadores aritméticos, operadores de atribuição e depois da vírgula.
+- Função de seta em vez de declaração de função
+- Retorno explícito em vez de retorno implícito se a função for uma linha.
+- Sem vírgula no último valor de um objeto.
+- Preferimos +=, -=, *=, /=, **= em vez da versão mais longa.
+- Quando usamos console.log() é bom imprimir com uma string de tag para identificar de onde o console está vindo.
+
+´´´js
+
+let firstName = 'Augusto'
+let lastName = 'Amaro'
+let country = 'Brazil'
+
+const PI = Math.PI
+
+´´´
+
+Arrays
