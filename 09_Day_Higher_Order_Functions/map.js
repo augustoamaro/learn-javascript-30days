@@ -1,4 +1,5 @@
-// Itera os elementos do array e modifica os elementos do array. Recebe uma função de retorno de chamada com elementos, índice, parâmetro da matriz e retorna uma nova matriz
+// Itera os elementos do array e modifica os elementos do array. 
+// Recebe uma função de retorno de chamada com elementos, índice, parâmetro da matriz e retorna uma nova matriz
 
 const numbers = [1, 2, 3, 4, 5]
 const numbersSquare = numbers.map((num) => num * num) // 1, 4, 9, 16, 25
