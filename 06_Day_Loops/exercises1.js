@@ -26,13 +26,23 @@ const  countries  =  [
 
 
 
-//   Use o loop for para iterar de 0 a 100 e imprimir apenas números pares
+// Use o loop for para iterar de 0 a 100 e imprimir apenas números pares.
+for (let i = 0; i <= 10; i++) {
+  const resultado = i % 2;  
+  if (resultado === 0) {
+    console.log(i)
+  }
+}
   
-//   Use o loop for para iterar de 0 a 100 e imprimir apenas números ímpares
+// Use o loop for para iterar de 0 a 100 e imprimir apenas números ímpares.
+for (let i = 0; i <= 10; i++) {
+  if (i % 2) console.log(i)
+}
+
+// Use o loop for para iterar de 0 a 100 e imprimir apenas números primos
   
-//   Use o loop for para iterar de 0 a 100 e imprimir apenas números primos
-  
-//   Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os números.
+//  Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os números.
+
   
 //   A soma de todos os números de 0 a 100 é 5050.
 //   Use o loop for para iterar de 0 a 100 e imprimir a soma de todos os pares e a soma de todas as probabilidades.
